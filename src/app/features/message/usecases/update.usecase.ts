@@ -28,7 +28,7 @@ export class UpdateMessageUsecase {
     await cacheRepository.delete("allUser");
 
     return {
-      ok: false,
+      ok: true,
       code: 201,
       message: "Message successfully edited",
       data: result,

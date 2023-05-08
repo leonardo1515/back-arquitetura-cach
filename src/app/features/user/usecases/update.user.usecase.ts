@@ -22,7 +22,7 @@ export class UpdateUserUsecase {
     await cacheRepository.delete(`loginUserKey${data.email}`);
 
     return {
-      ok: false,
+      ok: true,
       code: 201,
       message: "User successfully edited",
       data: result,

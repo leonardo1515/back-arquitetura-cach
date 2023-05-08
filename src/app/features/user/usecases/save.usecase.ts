@@ -8,7 +8,7 @@ export class SaveUserUsecase {
     const result = repository.save(data.id, data.status);
 
     return {
-      ok: false,
+      ok: true,
       code: 201,
       message: "User successfully edited",
       data: result,

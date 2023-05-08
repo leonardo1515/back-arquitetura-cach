@@ -14,7 +14,7 @@ export class LoginUserUsecase {
       return {
         ok: true,
         code: 200,
-        message: "Unauthorized access",
+        message: "Altorized access",
         data: cacheResult,
       };
     }

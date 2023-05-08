@@ -64,24 +64,3 @@ describe("Create user usecase", () => {
     expect(result).toHaveProperty("message", "New user successfully created");
   });
 });
-
-// describe("Create User usecase teste", () => {
-//   const makeSut = () => {
-//     return new CreateUserUsecase();
-//   };
-
-//   test("Testando a criação de usuariso", async () => {
-//     const sut = makeSut();
-
-//     const data = {
-//       name: "deodonio",
-//       email: "leodeosonio@gmail.com",
-//       password: "toiii44",
-//       status: false,
-//     };
-//     const result = await sut.execute(data);
-//     expect(result).toBeDefined();
-//     expect(result).toHaveProperty("ok", true);
-//   });
-// });
-// npm rum:watch

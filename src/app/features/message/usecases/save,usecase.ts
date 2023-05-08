@@ -14,7 +14,7 @@ export class SaveMessageUsecase {
     await cacheRepository.delete("allUser");
 
     return {
-      ok: false,
+      ok: true,
       code: 201,
       message: "Message successfully saved",
       data: result,
